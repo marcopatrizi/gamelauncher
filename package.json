@@ -1,0 +1,19 @@
+{
+  "name": "gamelauncher",
+  "productName": "gamelauncher",
+  "description": "My Electron application description",
+  "keywords": [],
+  "main": "./main.js",
+  "version": "1.0.0",
+  "author": "marco",
+  "scripts": {
+    "start": "electron ."
+  },
+  "dependencies": {
+    "remote": "*",
+    "dialog": "*"
+  },
+  "devDependencies": {
+    "electron": "11.1.1"
+  }
+}

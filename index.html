@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Hello World!</title>
+    <link rel="stylesheet" type="text/css" href="./styles.css">
+    <script language="javascript" type="text/javascript">
+
+</script>
+  </head>
+  <body>
+    <script src="main.js"></script>
+    <input id="nomeGioco" type="file" accept=".exe" onchange="selezionaApp()">
+    <h1>giochi</h1>
+    <ul style="list-style-type: none;">
+      <img src="buffer" alt="">
+      <li id="giocoUno" onclick="runApp()"></li>
+      <li id="giocoDue"></li>
+      <li id="giocoTre"></li>
+      <li id="giocoQuattro"></li>
+      <li id="giocoCinque"></li>
+      <li id="giocoSei"></li>
+      <li id="giocoSette"></li>
+      <li id="giocoOtto"></li>
+      <li id="giocoNove"></li>
+    </ul>
+    <script>
+      // You can also require other files to run in this process
+      require('./renderer.js')
+    </script>
+  </body>
+</html>
