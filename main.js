@@ -42,27 +42,6 @@ app.on('activate', function () {
 
 // In this file you can include the rest of your app's specific main process
 // code. You can also put them in separate files and require them here.
-const remote = require('remote');
-const dialog = remote.require('dialog');
-const fs = require('fs');
-
-fs.readdir
-
-function creaFileTxt(){
-let content = "Some text to save into the file";
-
-    // fileName is a string that contains the path and filename created in the save file dialog.  
-    fs.writeFile(fileName, content, (err) => {
-        if(err){
-            alert("An error ocurred creating the file "+ err.message)
-        }
-                    
-        alert("The file has been succesfully saved");
-    });
-}); 
-}
-
-
 
 
 function selezionaApp(){

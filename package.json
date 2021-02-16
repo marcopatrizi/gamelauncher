@@ -9,10 +9,7 @@
   "scripts": {
     "start": "electron ."
   },
-  "dependencies": {
-    "remote": "*",
-    "dialog": "*"
-  },
+  "dependencies": {},
   "devDependencies": {
     "electron": "11.1.1"
   }
