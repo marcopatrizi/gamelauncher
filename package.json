@@ -1,6 +1,6 @@
 {
-  "name": "gamelauncher",
-  "productName": "gamelauncher",
+  "name": "victorious-birds-share-ueqvk",
+  "productName": "victorious-birds-share-ueqvk",
   "description": "My Electron application description",
   "keywords": [],
   "main": "./main.js",
@@ -11,6 +11,6 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "electron": "11.1.1"
+    "electron": "13.0.0-nightly.20210212"
   }
 }
